@@ -16,6 +16,7 @@ body{
 
 /* header */
 .all-logo{
+    font-family: var(--textfont);
     font-size: 24px;
     color: var(--title-color);
     text-decoration: none;
@@ -25,7 +26,6 @@ body{
     line-height: 1.3;
 }
 .logo{
-    font-family: var(--textfont);
     color: var(--accent-color);
 }
 .nav{
