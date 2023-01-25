@@ -30,7 +30,10 @@ body{
 .logo{
     color: var(--accent-color);
 }
-.nav{
+.nav,
+.objectives li,
+.doing li,
+.team li{
     list-style-type: none;
 }
 .nav a{
@@ -73,44 +76,28 @@ h1{
     font-size: 16px;
     cursor:pointer;
     letter-spacing: 0.04em;
+    font-style: inherit;
 }
 .button-order:hover,
 .button-order:focus{
     background-color: var(--hoveraccent-color);
 }
-.objectives li{
-    list-style-type: none;
-}
-.objectives h3{
+
+.objectives h3,
+.team h3,
+.examples h2{
     color: var(--title-color);
     font-weight: 500;
     font-size: 20px;
-    line-height:1.25;} 
+    line-height:1.2;} 
 
-.doing h2{
-    color: var(--title-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height:1.1;} 
-
-.doing li{
-    list-style-type: none;
-}
+.doing h2,
 .team h2{
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
     line-height:1.1;} 
 
-.team li{
-    list-style-type: none;
-}
-.team h3{
-    color: var(--title-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height:1.2;
-} 
 
 /* portfolio */
 .button-nav-list{
@@ -124,6 +111,7 @@ h1{
     font-size: 16px;
     letter-spacing: 0.04em;
     cursor:pointer;
+    font-style: inherit;
 }
 .button-nav:hover,
 .button-nav:focus{
@@ -133,9 +121,4 @@ h1{
 .examples{
     list-style-type: none;
 }
-.examples h2{
-    color: var(--title-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height:1.2;
-} 
+
